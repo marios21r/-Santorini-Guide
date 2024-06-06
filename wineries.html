@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main-styles.css/style-header.css">
+        <link rel="stylesheet" href="suggestions-style/wineries.css">
+    
+
+    </head>
+    <body>
+      
+        <div class="head">
+            <div class="upper-header">
+                <div class="language-changer" id="language">GR | EN</div>
+                <div class="right-upper-header">
+                    <div class="location">Santorini,Greece</div>
+                    <div class="time" id="local-time"></div>
+                </div>
+            </div>
+            <div class="mid-mid-header">
+                <div class="logo">
+                    <a href="UltimateGuide.html">
+                    <img class="logo-img" src="logo/fotor-ai-20240507202612.jpg">
+                    </a>
+                </div>
+    
+                <div class="mid-header">
+                    <div class="extends">
+                        <a class="button-under" href="moving-around.html"><button class="main-buttons" id="b2" data-target="extended">Moving around</button></a>
+                    </div>
+                    <div class="extends">
+                        <button class="main-buttons" id="b3" data-target="extended-unique">Suggestions</button>
+                        <div class="group" id="extended-unique">
+                            <a  class="button-under" href="restaurant.html"><button class="sub-buttons" id="b21">Restaurants</butto> </a>
+                            <a  class="button-under" href="wineries.html"> <button class="sub-buttons" id="b22">Wineries</button></a>
+                            <a  class="button-under" href="beaches.html">  <button class="sub-buttons" id="b23">Best beaches</button> </a>
+                            <a  class="button-under" href="hidden-villlages.html"><button class="sub-buttons" id="b24">Hidden villages</button></a>
+                            <a  class="button-under" href="archaological-places.html"><button class="sub-buttons" id="b25">Archaeological</button></a>
+                        </div>
+                    </div>
+                    <div class="extends">
+                        <a  class="button-under" href="tips.html">                    <button class="main-buttons" id="b4" data-target="extended2">Tips</button>
+                        </a>
+                    </div>
+                    <a  class="button-under" href="activiites.html"><button class="main-buttons" id="b5">Activities</button></a>
+                    <button class="main-buttons" id="b6">Map</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="wineries-main">
+            <div class="wineries-main1">
+                <div class="main1-left">
+                    <div class="main1-all">
+                        <div class="main1-title">THE WINERIES</div>
+                    <div class="main1-text">Santorini, a jewel in the Aegean Sea, is renowned not only for its stunning sunsets and iconic white-washed architecture but also for its exceptional wines. The island's volcanic soil, unique climate, and ancient winemaking traditions come together to produce wines of unparalleled quality and character. Santorini's vineyards, some of the oldest in the world, are home to indigenous grape varieties that thrive in the island's harsh, arid conditions.
+
+                        The most famous of these is Assyrtiko, a white grape known for its crisp acidity and mineral flavors, often described as capturing the very essence of Santorini's terroir. Other notable varieties include Nykteri, a rich and aromatic white wine traditionally harvested at night, and Vinsanto, a luscious sweet wine made from sun-dried grapes. Additionally, red varieties like Mavrotragano and Aidani add depth to the island's wine offerings, each with their own unique flavor profiles and stories.
+                        
+                        With over 40 wineries scattered across the island, Santorini offers a diverse and vibrant wine culture that invites exploration and discovery. From the ancient basket-trained vines to modern winemaking techniques, Santorini's wines are a testament to the island's enduring legacy and innovative spirit.
+                        
+                        </div>
+                </div>
+
+                </div>
+                <div class="main1-right">
+                    <div class="image-slider">
+                        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+                        <img id="slider-image" src="geo-his-cult-pictures/1084px-Santorini_78.jpg" alt="Santorini Wine" />
+                        <button class="next" onclick="changeImage(1)">&#10095;</button>
+                    </div>
+                    <div class="main1-recommendations">
+                        <h1>Top 10 Wineries in Santorini</h1>
+                        <div class="wineries-container">
+                            <div class="winery-column">
+                                <div class="winery" data-info="Located in Pyrgos, this winery is renowned for its Assyrtiko wines.">
+                                    <span>1. Santo Wines</span>
+                                </div>
+                                <div class="winery" data-info="Located in Oia, famous for its picturesque views and exceptional Vinsanto.">
+                                    <span>2. Domaine Sigalas</span>
+                                </div>
+                                <div class="winery" data-info="Located in Megalochori, known for its rich history and unique blends.">
+                                    <span>3. Gavalas Winery</span>
+                                </div>
+                                <div class="winery" data-info="Located in Fira, offers a great selection of red and white wines.">
+                                    <span>4. Hatzidakis Winery</span>
+                                </div>
+                                <div class="winery" data-info="Located in Exo Gonia, specializing in organic wines.">
+                                    <span>5. Art Space Winery</span>
+                                </div>
+                            </div>
+                            <div class="winery-column">
+                                <div class="winery" data-info="Located in Kamari, a modern winery with a diverse wine portfolio.">
+                                    <span>6. Gaia Wines</span>
+                                </div>
+                                <div class="winery" data-info="Located in Akrotiri, known for its volcanic soil influenced wines.">
+                                    <span>7. Boutari Winery</span>
+                                </div>
+                                <div class="winery" data-info="Located in Emporio, produces exceptional Aidani wines.">
+                                    <span>8. Koutsoyannopoulos Winery</span>
+                                </div>
+                                <div class="winery" data-info="Located in Monolithos, offers tours and tastings in a historic setting.">
+                                    <span>9. Vassaltis Vineyards</span>
+                                </div>
+                                <div class="winery" data-info="Located in Imerovigli, famous for its breathtaking views and fine wines.">
+                                    <span>10. Venetsanos Winery</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+    <div class="winery-info" id="winery-info">
+        <p></p>
+    </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="wineries-main2">
+                <div class="main-title">
+                    <h1>Santorini Wine Varieties</h1>
+                    <p>Santorini's unique volcanic soil and climate produce exceptional wines. Explore our top selections below.</p>
+                </div>
+            
+                <div class="wine-boxes">
+                    <div class="wine-box">
+                        <h2>Assyrtiko</h2>
+                        <img src="geo-his-cult-pictures/ASSYRTIKO.jpg" alt="Assyrtiko Wine">
+                        <div class="wine-details">
+                            <p><strong>Type:</strong> White</p>
+                            <p><strong>Flavor Profile:</strong> Assyrtiko wines are known for their high acidity, citrus flavors (lemon, grapefruit), mineral notes, and hints of saline due to the volcanic soil of Santorini.</p>
+                            <p><strong>Recommendation:</strong> Highly recommended for those who enjoy crisp, refreshing white wines with a distinct character.</p>
+                            <p><strong>Food Pairings:</strong> Perfect with seafood dishes like grilled octopus, shrimp saganaki, or traditional Greek dishes like fava beans and tomato keftedes.</p>
+                            <p><strong>Trophy:</strong> Gold Medal at the Decanter World Wine Awards.</p>
+                        </div>
+                    </div>
+            
+                    <div class="wine-box">
+                        <h2>Nykteri</h2>
+                        <img src="nykteri.jpg" alt="Nykteri Wine">
+                        <div class="wine-details">
+                            <p><strong>Type:</strong> White</p>
+                            <p><strong>Flavor Profile:</strong> Nykteri wines are rich and full-bodied with aromas of ripe stone fruits, honey, and herbs. They often have a creamy texture with hints of vanilla and spice.</p>
+                            <p><strong>Recommendation:</strong> Ideal for wine enthusiasts seeking a complex and flavorful white wine with depth.</p>
+                            <p><strong>Food Pairings:</strong> Pair with grilled lamb chops, roasted chicken, or creamy pasta dishes like fettuccine Alfredo.</p>
+                            <p><strong>Trophy:</strong> Best in Show at the International Wine Challenge.</p>
+                        </div>
+                    </div>
+            
+                    <div class="wine-box">
+                        <h2>Vinsanto</h2>
+                        <img src="vinsanto.jpg" alt="Vinsanto Wine">
+                        <div class="wine-details">
+                            <p><strong>Type:</strong> Dessert Wine (Sweet)</p>
+                            <p><strong>Flavor Profile:</strong> Vinsanto wines boast luscious flavors of dried fruits (figs, apricots, raisins), honey, caramel, and nuts. They have a velvety texture with a long, satisfying finish.</p>
+                            <p><strong>Recommendation:</strong> Perfect for those with a sweet tooth looking for a luxurious dessert wine experience.</p>
+                            <p><strong>Food Pairings:</strong> Enjoy with desserts like baklava, honey-drizzled pastries, or creamy cheeses like blue cheese or aged Gouda.</p>
+                            <p><strong>Trophy:</strong> Double Gold Medal at the San Francisco International Wine Competition.</p>
+                        </div>
+                    </div>
+                </div>
+ </div>
+
+
+
+
+            <div class="wireries-main3"><div class="did-you-know">
+               
+                    <h2>Did you know?</h2>
+                    <div class="dyk-container">
+                        <div class="dyk-column">
+                            <p><span class="important-fact">Santorini's Assyrtiko vines are over 70 years old on average</span>, contributing to the intense flavors and complexity of the wine.</p>
+                            <p><span class="important-fact">Santorini receives only about 370 millimeters (14.5 inches) of rain per year</span>, making it one of the driest wine-producing regions in the world.</p>
+                            <p>The island's vineyards cover approximately 1,200 hectares (about 3,000 acres), with some of the oldest vines dating back to before the 18th century.</p>
+                            <p><span class="important-fact">Wines made from Santorini's Assyrtiko grape account for over 70% of the island's wine production</span>, showcasing its dominance and popularity.</p>
+                            <p><span class="important-fact">Santorini's volcanic eruption around 1600 BC created the unique soil conditions</span> that contribute to the island's distinctive wine flavors.</p>
+                        </div>
+                        <div class="dyk-column">
+                            <p><span class="important-fact">Santorini’s Vinsanto wine is aged for a minimum of 2 years in oak barrels</span>, but some producers age it for up to 25 years for a richer taste.</p>
+                            <p>Santorini has over 40 wineries, despite its small size, each producing a variety of unique wines that reflect the island's diverse terroir.</p>
+                            <p><span class="important-fact">Some Assyrtiko wines can reach alcohol levels of up to 15%</span>, which is relatively high for white wines, giving them a robust and powerful profile.</p>
+                            <p>The average annual temperature on Santorini is about 19°C (66°F), providing an ideal climate for grape growing with plenty of sunshine and moderate temperatures.</p>
+                            <p><span class="important-fact">Santorini wines can fetch up to $200 per bottle on the international market</span>, especially for rare and aged varieties, highlighting their prestige and desirability.</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="wineries-main4"></div>
+        </div>
+
+
+
+
+
+
+        
+        <script src="main-scripts/header-script.js"></script>
+        <script src="suggestions-java/wineries.js"></script>
+
+    </body>
+</html>

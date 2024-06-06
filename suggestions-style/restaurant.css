@@ -1,0 +1,170 @@
+body{
+    background-color: #ffffff;
+}
+.main-restaurant{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-top-style:solid;
+    padding-top: 40px;
+    border-width: 1px;
+
+}
+
+.main-pic{    height: 500px;
+    width: 1100px;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+.title-hid{
+    font-size: 2.1rem;
+    opacity: 1;
+    position:absolute;
+    right: 270px;
+    font-weight: bold;
+    bottom: 290px;
+}
+
+.main-text{
+font-size: 1.2rem;
+text-align: center;
+width: 1200px;
+border-bottom-style:solid ;
+padding: 10px 50px;
+border-width: 1px;
+}
+
+.main-restaurant-section{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-restaurant-section {
+    width: fit-content;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+    border-right-style: solid;
+    border-left-style: solid;
+
+    margin-top: 100px;
+    height: 300px;
+    align-items: center;
+    border-color: #333;
+    border-width: 1px;
+}
+
+.culinary-title {
+    font-size: 2.4em;
+    color: rgb(255, 230, 197);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.culinary-ask {
+
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+    border-style: solid;
+    width: 270px;
+    margin-left: 70px;
+    border: none;
+    box-shadow: 1px 1px 2px 1px rgba(230, 161, 70, 0.3);
+    transition: 0.3s;
+
+}
+
+.culinary-ask:hover{
+    background-color: rgb(255, 230, 197);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+transition: 0.3s;
+}
+
+.culinary-semi-title {
+    font-size: 1.5em;
+    color: #555;
+    padding-bottom: 5px;
+}
+
+.culinary-text {
+    display: none;
+    font-size: 1.1em;
+    color: #333;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.culinary-text.active {
+    display: block;
+}
+
+.dish-name {
+    font-weight: bold;
+    color: #800020;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.right-restaurant-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.right-section-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    padding-top: 50px;
+}
+
+.personal-title{
+    font-size: 1.7rem;
+
+}
+
+.personal-title {
+    font-size: 1.7rem;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.personal-options {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.personal-options p {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    line-height: 60px;
+}
+

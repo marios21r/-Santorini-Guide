@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultimate guide</title>
+    <link rel="stylesheet" href="main-styles.css/style-header.css">
+    <link rel="stylesheet" href="suggestions-style/beaches.css">
+</head>
+<body>
+    <div class="head">
+        <div class="upper-header">
+            <div class="language-changer" id="language">GR | EN</div>
+            <div class="right-upper-header">
+                <div class="location">Santorini,Greece</div>
+                <div class="time" id="local-time"></div>
+            </div>
+        </div>
+        <div class="mid-mid-header">
+            <div class="logo">
+                <a href="UltimateGuide.html">
+                <img class="logo-img" src="logo/fotor-ai-20240507202612.jpg">
+                </a>
+            </div>
+
+            <div class="mid-header">
+                <div class="extends">
+                    <a class="button-under" href="moving-around.html"><button class="main-buttons" id="b2" data-target="extended">Moving around</button></a>
+                </div>
+                <div class="extends">
+                    <button class="main-buttons" id="b3" data-target="extended-unique">Suggestions</button>
+                    <div class="group" id="extended-unique">
+                        <a  class="button-under" href="restaurant.html"><button class="sub-buttons" id="b21">Restaurants</butto> </a>
+                        <a  class="button-under" href="wineries.html"> <button class="sub-buttons" id="b22">Wineries</button></a>
+                        <a  class="button-under" href="beaches.html">  <button class="sub-buttons" id="b23">Best beaches</button> </a>
+                        <a  class="button-under" href="hidden-villlages.html"><button class="sub-buttons" id="b24">Hidden villages</button></a>
+                        <a  class="button-under" href="archaological-places.html"><button class="sub-buttons" id="b25">Archaeological</button></a>
+                    </div>
+                </div>
+                <div class="extends">
+                    <a  class="button-under" href="tips.html">                    <button class="main-buttons" id="b4" data-target="extended2">Tips</button>
+                    </a>
+                </div>
+                <a  class="button-under" href="activiites.html"><button class="main-buttons" id="b5">Activities</button></a>
+                <button class="main-buttons" id="b6">Map</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="beach-section">
+        <div class="title">Santorini Beaches</div>
+        <div class="intro-text">Explore the beautiful beaches of Santorini. Click on a beach to see more details and find out the best time to visit based on wind conditions.</div>
+        <div class="beach-container">
+            <div class="beach-grid">
+                <img src="beaches/Kamari_Thiras.jpg" alt="Kamari Beach" onclick="showBeach('kamari')">
+                <img src="beaches/960px-Perissa_1.jpg" alt="Perivolos-Perissa Beach" onclick="showBeach('perivolos-perissa')">
+                <img src="red-beach.jpg" alt="Red Beach" onclick="showBeach('red')">
+                <img src="vlychada.jpg" alt="Vlychada Beach" onclick="showBeach('vlychada')">
+                <img src="vourvoulos.jpg" alt="Vourvoulos Beach" onclick="showBeach('vourvoulos')">
+                <img src="pori.jpg" alt="Pori Beach" onclick="showBeach('pori')">
+                <img src="koloumpos.jpg" alt="Koloumpos Beach" onclick="showBeach('koloumpos')">
+                <img src="monolithos.jpg" alt="Monolithos Beach" onclick="showBeach('monolithos')">
+                <img src="ammoudi.jpg" alt="Ammoudi Bay" onclick="showBeach('ammoudi')">
+            </div>
+            <div class="beach-display">
+                <img id="large-image" src="beaches/Kamari_Thiras.jpg" alt="Kamari Beach">
+                <div class="beach-info" id="beach-info">
+                    <h2 id="beach-name">Kamari Beach</h2>
+                    <p id="beach-description">Kamari Beach is a beautiful black sand beach located on the southeast coast of Santorini. It's perfect for swimming and sunbathing.</p>
+                    <p id="beach-wind">Worst wind: North</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="main-scripts/header-script.js" ></script>
+    <script src="suggestions-java/beaches.js"></script>
+</body>
+</html>

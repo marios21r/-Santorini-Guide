@@ -1,0 +1,136 @@
+/* Styles for main section */
+.main-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Styles for main picture */
+.main-picture {
+    width: 100%;
+    height: 300px;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for main text */
+.main-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Styles for main main section */
+.main-main-section {
+    margin-bottom: 30px;
+}
+
+/* Styles for box */
+.box {
+    margin-bottom: 20px;
+}
+
+/* Styles for main title */
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles for box2 */
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for image-box */
+.image-box {
+    width: 45%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Styles for text-box */
+.text-box {
+    width: 45%;
+}
+
+/* Styles for foot section */
+.foot-section {
+    margin-bottom: 30px;
+}
+
+/* Styles for foot title */
+.foot-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles for box-foot */
+.box-foot {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for place-foot */
+.place-foot {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Styles for info-foot */
+.info-foot {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Styles for link-foot */
+.link-foot {
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Styles for tip section */
+.tip-section {
+    margin-bottom: 30px;
+}
+
+/* Styles for img-tip */
+.img-tip {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+}
+
+/* Styles for img-text */
+.img-text {
+    margin-top: 10px;
+}
+
+/* Styles for transportation tips */
+.img-text h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styles for transportation tips list */
+.img-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for transportation tips list items */
+.img-text li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}

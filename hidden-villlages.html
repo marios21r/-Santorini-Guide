@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="main-styles.css/style-header.css">
+    <link rel="stylesheet" href="suggestions-style/hidden-villlages.css">
+    </head>
+    <body>
+      
+        
+        <div class="head">
+            <div class="upper-header">
+                <div class="language-changer" id="language">GR | EN</div>
+                <div class="right-upper-header">
+                    <div class="location">Santorini,Greece</div>
+                    <div class="time" id="local-time"></div>
+                </div>
+            </div>
+            <div class="mid-mid-header">
+                <div class="logo">
+                    <a href="UltimateGuide.html">
+                    <img class="logo-img" src="logo/fotor-ai-20240507202612.jpg">
+                    </a>
+                </div>
+    
+                <div class="mid-header">
+                    <div class="extends">
+                        <a class="button-under" href="moving-around.html"><button class="main-buttons" id="b2" data-target="extended">Moving around</button></a>
+                    </div>
+                    <div class="extends">
+                        <button class="main-buttons" id="b3" data-target="extended-unique">Suggestions</button>
+                        <div class="group" id="extended-unique">
+                            <a  class="button-under" href="restaurant.html"><button class="sub-buttons" id="b21">Restaurants</butto> </a>
+                            <a  class="button-under" href="wineries.html"> <button class="sub-buttons" id="b22">Wineries</button></a>
+                            <a  class="button-under" href="beaches.html">  <button class="sub-buttons" id="b23">Best beaches</button> </a>
+                            <a  class="button-under" href="hidden-villlages.html"><button class="sub-buttons" id="b24">Hidden villages</button></a>
+                            <a  class="button-under" href="archaological-places.html"><button class="sub-buttons" id="b25">Archaeological</button></a>
+                        </div>
+                    </div>
+                    <div class="extends">
+                        <a  class="button-under" href="tips.html">                    <button class="main-buttons" id="b4" data-target="extended2">Tips</button>
+                        </a>
+                    </div>
+                    <a  class="button-under" href="activiites.html"><button class="main-buttons" id="b5">Activities</button></a>
+                    <button class="main-buttons" id="b6">Map</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="main-container">
+            <h1 class="main-title">Santorini Hidden Villages</h1>
+            <div class="main-image-container">
+                <img src="villages/Kasteli001 (1).jpg" alt="Santorini Villages" class="main-image">
+            </div>
+            <p class="main-text">Discover the charm and beauty of Santorini's hidden traditional villages. These gems are often overlooked by tourists but offer a glimpse into the island's rich history and culture. Many of these villages are accessible only by narrow paths, preserving their unique charm and traditional architecture. Explore these hidden treasures and immerse yourself in the authentic Santorini experience.</p>
+            
+            <div class="villages-section">
+                <div class="village" onclick="toggleVillageInfo(this)">
+                    <img src="villages/942px-Street_of_Megalochori.jpg" alt="Megalochori" class="village-image">
+                    <div class="village-info">
+                        <h2 class="village-title">Megalochori Village</h2>
+                        <p class="village-description">Megalochori is a picturesque village with narrow, winding paths and traditional Cycladic houses. <b>Not accessible by car,</b> this village offers a peaceful and authentic atmosphere with charming tavernas and local wineries.</p>
+                    </div>
+                </div>
+                <div class="village" onclick="toggleVillageInfo(this)">
+                    <img src="kontochori.jpg" alt="Kontochori" class="village-image">
+                    <div class="village-info">
+                        <h2 class="village-title">Kontochori Village</h2>
+                        <p class="village-description">Kontochori is known for its beautiful gardens and traditional houses. <b>Not accessible by car,</b> this village is a hidden gem with a rich cultural heritage and stunning views of the island.</p>
+                    </div>
+                </div>
+                <div class="village" onclick="toggleVillageInfo(this)">
+                    <img src="villages/Pyrgos_Kallistis.jpg" alt="Pyrgos" class="village-image">
+                    <div class="village-info">
+                        <h2 class="village-title">Pyrgos Village</h2>
+                        <p class="village-description">Pyrgos is a medieval village with a labyrinth of narrow paths and charming houses. <b>Not accessible by car,</b> it offers panoramic views of the island from its hilltop location and is home to several historic churches.</p>
+                    </div>
+                </div>
+                <div class="village" onclick="toggleVillageInfo(this)">
+                    <img src="villages/960px-Emporeio001.jpg" alt="Emporio" class="village-image">
+                    <div class="village-info">
+                        <h2 class="village-title">Emporio Village</h2>
+                        <p class="village-description">Emporio is one of the largest villages on Santorini, known for its medieval Kasteli (castle) and winding streets. It offers a blend of history and tradition with vibrant local life.</p>
+                    </div>
+                </div>
+                <div class="village" onclick="toggleVillageInfo(this)">
+                    <img src="villages/Vothonas.jpg" alt="Foinikia" class="village-image">
+                    <div class="village-info">
+                        <h2 class="village-title">Foinikia Village</h2>
+                        <p class="village-description">Foinikia is a quaint village near Oia, famous for its traditional cave houses and serene atmosphere. <b>Not accessible by car,</b> it provides a tranquil escape with stunning sunset views.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="main-scripts/header-script.js"></script>
+        <script src="suggestions-java/hidden-villlages.js"></script>
+
+    </body>
+</html>

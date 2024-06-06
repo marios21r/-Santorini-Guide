@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.main-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.site-section {
+    margin-bottom: 50px;
+}
+
+.site {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.site-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+
+.site-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.site-title {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.site-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.fact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fact-list li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.fact-list li b {
+    color: #cc0000;
+}
+
+.sub-title {
+    font-size: 2rem;
+    color: #003366;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+.additional-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-item {
+    width: 48%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, opacity 0.3s;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.additional-site-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.site-info {
+    padding: 15px;
+}
+
+.site-name {
+    font-size: 1.4rem;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.site-description {
+    font-size: 1rem;
+}

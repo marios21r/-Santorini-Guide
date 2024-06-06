@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ultimate guide</title>
+    <link rel="stylesheet" href="main-styles.css/style-header.css">
+    <link rel="stylesheet" href="suggestions-style/restaurant.css">
+</head>
+<body>
+    <div class="head">
+        <div class="upper-header">
+            <div class="language-changer" id="language">GR | EN</div>
+            <div class="right-upper-header">
+                <div class="location">Santorini,Greece</div>
+                <div class="time" id="local-time"></div>
+            </div>
+        </div>
+        <div class="mid-mid-header">
+            <div class="logo">
+                <a href="UltimateGuide.html">
+                <img class="logo-img" src="logo/fotor-ai-20240507202612.jpg">
+                </a>
+            </div>
+
+            <div class="mid-header">
+                <div class="extends">
+                    <a class="button-under" href="moving-around.html"><button class="main-buttons" id="b2" data-target="extended">Moving around</button></a>
+                </div>
+                <div class="extends">
+                    <button class="main-buttons" id="b3" data-target="extended-unique">Suggestions</button>
+                    <div class="group" id="extended-unique">
+                        <a  class="button-under" href="restaurant.html"><button class="sub-buttons" id="b21">Restaurants</butto> </a>
+                        <a  class="button-under" href="wineries.html"> <button class="sub-buttons" id="b22">Wineries</button></a>
+                        <a  class="button-under" href="beaches.html">  <button class="sub-buttons" id="b23">Best beaches</button> </a>
+                        <a  class="button-under" href="hidden-villlages.html"><button class="sub-buttons" id="b24">Hidden villages</button></a>
+                        <a  class="button-under" href="archaological-places.html"><button class="sub-buttons" id="b25">Archaeological</button></a>
+                    </div>
+                </div>
+                <div class="extends">
+                    <a  class="button-under" href="tips.html">                    <button class="main-buttons" id="b4" data-target="extended2">Tips</button>
+                    </a>
+                </div>
+                <a  class="button-under" href="activiites.html"><button class="main-buttons" id="b5">Activities</button></a>
+                <button class="main-buttons" id="b6">Map</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-restaurant">
+    
+    <div class="title-hid">Santorini Culinary Delights
+    </div>
+        <div ><img class="main-pic"src="recommenadtion pictures/santorini-1578463_1280.jpg"></div>
+    <div class="main-text">Santorini is not just a feast for the eyes but also a paradise for food enthusiasts. The island's unique volcanic soil, abundant sunshine, and rich culinary traditions have given rise to a distinctive cuisine that is both flavorful and deeply rooted in its cultural heritage. From the freshest seafood to the finest local wines, Santorini offers an extraordinary gastronomic experience that reflects its vibrant landscape and history.
+
+        Embark on a culinary journey through the island's must-try foods, explore the local ingredients that define its dishes, and savor traditional specialties that have been passed down through generations. Whether you're dining at a cliffside taverna overlooking the caldera or enjoying a meal in a quaint village, the flavors of Santorini promise to leave a lasting impression.
+        
+        Discover the essence of Santorini through its cuisine, where every dish tells a story and every bite is a celebration of the island's natural bounty and culinary artistry.</div>
+    </div>
+    
+
+<div class="main-restaurant-section">
+    <div class="left-restaurant-section">
+        <div class="culinary-general">
+            <div class="culinary-title">Santorini Culinary Delights</div>
+        </div>
+        <div class="culinary-ask" onclick="toggleText('general')">
+            <div class="culinary-semi-title">Must-Try Foods</div>
+            <div id="general" class="culinary-text hidden">
+                <p><span class="dish-name">Fava Me Koukia:</span> A creamy puree made from yellow split peas, often served with onions, capers, and olive oil. This dish is a staple in Santorini and highlights the island's unique agricultural produce.</p>
+                <p><span class="dish-name">Tomatokeftedes (Tomato Fritters):</span> These delicious fritters are made using Santorini's famous cherry tomatoes, herbs, and occasionally cheese. They are lightly fried to perfection, making them a popular appetizer.</p>
+                <p><span class="dish-name">Atherina (Fried Small Fish):</span> Fresh, tiny fish are lightly coated in flour and fried until crispy. They are typically served as a meze (small dish) and are perfect with a squeeze of lemon.</p>
+            </div>
+        </div>
+
+        <div class="culinary-ask" onclick="toggleText('ingredients')">
+            <div class="culinary-semi-title">Local Ingredients</div>
+            <div id="ingredients" class="culinary-text hidden">
+                <p><span class="dish-name">Santorini Cherry Tomatoes:</span> These small, intensely flavorful tomatoes are unique to the island and are used in various local dishes, including salads and fritters.</p>
+                <p><span class="dish-name">White Eggplant:</span> Unlike its purple counterpart, the white eggplant of Santorini is sweeter and less bitter, making it perfect for grilling and frying.</p>
+                <p><span class="dish-name">Capers:</span> Harvested from the wild caper bushes that grow on the island, Santorini capers are used in many traditional dishes, providing a burst of flavor.</p>
+            </div>
+        </div>
+
+        <div class="culinary-ask" onclick="toggleText('dishes')">
+            <div class="culinary-semi-title">Traditional Dishes</div>
+            <div id="dishes" class="culinary-text hidden">
+                <p><span class="dish-name">Kopania:</span> A traditional sweet treat made from barley rusks, raisins, and honey. This dish is often enjoyed as a snack or dessert and showcases the island's ancient culinary traditions.</p>
+                <p><span class="dish-name">Apochti:</span> This dish features pork that has been salted, spiced, and air-dried. It's typically served sliced thin and can be enjoyed alone or as part of a larger dish.</p>
+                <p><span class="dish-name">Melitinia:</span> These sweet cheese pastries are a special treat, often prepared during Easter. They are made with fresh mizithra cheese, sugar, and mastic, and baked until golden.</p>
+            </div>
+        </div>
+</div>
+
+<div class="right-restaurant-section">
+    <div class="right-section-title">Restaurants recommendation</div>
+    <div class="box">
+        <div class="personal-box">
+            <div class="personal-title" onclick="toggleOptions('caldera-options')">Caldera View</div>
+            <div id="caldera-options" class="personal-options">
+                <p>Option 1</p>
+                <p>Option 2</p>
+                <p>Option 3</p>
+                <p>Option 4</p>
+                <p>Option 5</p>
+            </div>
+        </div>
+        <div class="personal-box">
+            <div class="personal-title" onclick="toggleOptions('offroad-options')">Off the Road</div>
+            <div id="offroad-options" class="personal-options">
+                <p>Option 1</p>
+                <p>Option 2</p>
+                <p>Option 3</p>
+                <p>Option 4</p>
+                <p>Option 5</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <script src="main-scripts/header-script.js" ></script>
+    <script src="suggestions-java/restaurant.js"></script>
+</body>
+</html>
